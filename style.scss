@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100%;
     background: rgb(2,60,18);
@@ -7,8 +12,9 @@ body {
 #time {
     font-size: 6em;
     color: white;
-    text-shadow: 0 0 20px rgba(146,216,66,1);
+    text-shadow: 0 0 20px rgb(165, 206, 70);
     text-align: center;
     height: 100v;
     line-height: 100vh;
+    font-family: 'Notable', sans-serif;
 }

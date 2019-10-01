@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 100%;
   background: #023c12;
@@ -7,9 +12,10 @@ body {
 #time {
   font-size: 6em;
   color: white;
-  text-shadow: 0 0 20px #92d842;
+  text-shadow: 0 0 20px #a5ce46;
   text-align: center;
   height: 100v;
   line-height: 100vh;
+  font-family: 'Notable', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
