@@ -11,8 +11,8 @@ var clock = new Vue ({
             // 新增一個日期物件放在 date 防止網路流量過大
             var date = new Date();
             this.hour = date.getHours();
-            this.minute = date.getMinute();
-            this.second = date.getSecond();
+            this.minute = date.getMinutes();
+            this.second = date.getSeconds();
         }
     },
     // 執行：會在所有元素顯示後執行
